@@ -1,0 +1,107 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Courier New", Courier, monospace;
+  color: #1095c1;
+}
+.main {
+  height: 100vh;
+}
+.panel {
+  display: none;
+}
+
+.header {
+  padding-inline: 100px;
+  padding-top: 0px;
+  margin-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.selection h4 {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+article {
+  margin: 0;
+}
+
+.image-background img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  height: 30px;
+}
+
+#memberTitle {
+  margin-inline: 100px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+article h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 50px;
+}
+.grid {
+  padding-inline: 100px;
+}
+#member {
+  margin-inline: 100px;
+  height: 100vh;
+  margin-top: 100vh;
+  /* background-color: #316475; */
+}
+#member h6 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0;
+}
+#member details {
+  margin: 0;
+}
+
+#member details img {
+  border-radius: 50%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#member article {
+  align-self: center;
+  max-width: 400px;
+  min-width: 300px;
+  margin-right: 10px;
+  display: inline-flex;
+}
+#member .article {
+  margin: 0 auto;
+  width: 79%;
+  /* background-color: #1095c1; */
+  padding-left: 1.7%;
+}
+/* calculate php */
+.answers {
+  margin-top: 2%;
+  height: 100vh;
+  margin-inline: 100px;
+}
+.answers h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #1095c1;
+}
+.answers a {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+/* darkmode */
